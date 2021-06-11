@@ -1,0 +1,15 @@
+.feature-list-icon-box {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--feature-team-portfolio-btn-bgc);
+  margin-bottom: 30px;
+
+  .feature-list-icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+  }
+}

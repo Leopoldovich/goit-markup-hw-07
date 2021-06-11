@@ -1,0 +1,59 @@
+.client-list-item-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--team-and-clients-fill);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: border;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--second-color);
+  }
+
+  &:hover .client-list-icon,
+  &:focus .client-list-icon {
+    fill: var(--second-color);
+  }
+
+  .client-list-icon {
+    fill: var(--team-and-clients-fill);
+    transition-property: fill;
+    transition-duration: var(--anim-transition-duration);
+    transition-timing-function: var(--anim-transition-timing-function);
+  }
+
+  .yaco-client-list-icon {
+    width: 41px;
+    height: 47px;
+  }
+
+  .company-client-list-icon {
+    width: 40px;
+    height: 52px;
+  }
+
+  .company-round-client-list-icon {
+    width: 43px;
+    height: 41px;
+  }
+
+  .foster-client-list-icon {
+    width: 84px;
+    height: 41px;
+  }
+
+  .brand-client-list-icon {
+    width: 63px;
+    height: 45px;
+  }
+
+  .tag-client-list-icon {
+    width: 94px;
+    height: 44px;
+  }
+}

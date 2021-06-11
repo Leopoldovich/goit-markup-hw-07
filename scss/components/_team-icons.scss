@@ -1,0 +1,43 @@
+.team-list-icon-big-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .team-list-icon-box {
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    .team-list-icon-link {
+      width: 44px;
+      height: 44px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      transition-property: background-color;
+      transition-duration: var(--anim-transition-duration);
+      transition-timing-function: var(--anim-transition-timing-function);
+
+      .team-list-icon {
+        width: 20px;
+        height: 20px;
+        display: block;
+        fill: var(--team-and-clients-fill);
+        transition-property: fill;
+        transition-duration: var(--anim-transition-duration);
+        transition-timing-function: var(--anim-transition-timing-function);
+      }
+
+      &:hover,
+      &:focus {
+        background-color: var(--second-color);
+      }
+
+      &:hover .team-list-icon,
+      &:focus .team-list-icon {
+        fill: var(--hero-and-city-word-color);
+      }
+    }
+  }
+}

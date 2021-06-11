@@ -1,0 +1,16 @@
+.clients-container {
+  .client-heading {
+    margin-bottom: 50px;
+  }
+
+  .client-list-item-box {
+    display: flex;
+    .client-list-item {
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
+}
+
+

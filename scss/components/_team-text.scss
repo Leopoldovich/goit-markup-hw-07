@@ -1,0 +1,22 @@
+.team-list-item-textbox {
+  padding: 30px 0;
+  background-color: var(--hero-and-city-word-color);
+
+  .team-heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--h-color);
+    margin-bottom: 10px;
+  }
+
+  .team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 16px;
+  }
+}
