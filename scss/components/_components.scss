@@ -3,17 +3,6 @@
   color: var(--h-color);
 }
 
-.logo-link {
-  font-family: var(--second-font);
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-
-.logo-first-world {
-  color: var(--second-color);
-}
-
 .heading {
   font-size: 36px;
   line-height: 1.17;
@@ -32,6 +21,22 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+.active-open-link {
+  color: var(--second-color);
+  position: relative;
+
+  &::after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--second-color);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
 }
 
 .heading-hidden,

@@ -1,0 +1,27 @@
+.header-nav-box-left-side-list {
+  display: flex;
+  align-items: center;
+
+  .nav-link-item {
+    .nav-link {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      padding-top: 32px;
+      padding-bottom: 32px;
+      transition-property: color;
+      transition-duration: var(--anim-transition-duration);
+      transition-timing-function: var(--anim-transition-timing-function);
+
+      &:hover,
+      &:focus {
+        color: var(--second-color);
+      }
+    }
+
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+}

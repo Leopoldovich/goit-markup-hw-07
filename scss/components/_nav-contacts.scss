@@ -1,0 +1,49 @@
+.header-contact-link-mail {
+  margin-right: 50px;
+
+  .contact-header-list-icon-mail {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: var(--main-color);
+    transition-property: fill;
+    transition-duration: var(--anim-transition-duration);
+    transition-timing-function: var(--anim-transition-timing-function);
+  }
+}
+
+.contact-header-list-icon-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--main-color);
+  transition-property: fill;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
+}
+
+.header-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+  display: flex;
+  align-items: center;
+  transition-property: color;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--second-color);
+  }
+
+  &:hover .contact-header-list-icon,
+  &:focus .contact-header-list-icon {
+    fill: var(--second-color);
+  }
+}

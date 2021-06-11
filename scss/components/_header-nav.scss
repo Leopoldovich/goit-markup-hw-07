@@ -1,0 +1,15 @@
+.header-nav-box {
+  display: flex;
+  align-items: center;
+
+  .header-nav-box-left-side {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-nav-box-right-side {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+}
