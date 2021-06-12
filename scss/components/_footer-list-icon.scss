@@ -1,0 +1,32 @@
+.footer-list-icon-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--footer-list-icon-bgc);
+  transition-property: background-color;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
+
+  .footer-list-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+    fill: var(--hero-and-city-word-color);
+    transition-property: fill;
+    transition-duration: var(--anim-transition-duration);
+    transition-timing-function: var(--anim-transition-timing-function);
+  }
+
+  &:hover,
+  &:focus {
+    background-color: var(--second-color);
+  }
+
+  &:hover .footer-list-icon,
+  &:focus .footer-list-icon {
+    fill: var(--hero-and-city-word-color);
+  }
+}

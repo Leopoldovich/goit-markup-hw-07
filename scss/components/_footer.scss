@@ -1,2 +1,27 @@
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--footer-bg-color);
 
-    
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+
+    .footer-container-box {
+      &:not(:last-child) {
+        margin-right: 70px;
+      }
+    }
+
+    .footer-logo-link {
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: 20px;
+
+      .footer-logo-second-word {
+        color: var(--hero-and-city-word-color);
+      }
+    }
+  }
+}
+

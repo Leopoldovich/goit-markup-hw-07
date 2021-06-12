@@ -1,0 +1,17 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--backdrop-bgc);
+  z-index: 999;
+  transition: opacity var(--anim-transition-duration) var(--anim-transition-timing-function),
+    visibility var(--anim-transition-duration) var(--anim-transition-timing-function);
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}

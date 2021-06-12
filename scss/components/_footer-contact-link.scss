@@ -1,0 +1,22 @@
+.footer-contact-link {
+  font-family: var(--first-font);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--footer-contact-link-color);
+  transition-property: color;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
+
+  &:hover,
+  &:focus,
+  .footer-contact-link-city-address:hover,
+  .footer-contact-link-city-address:focus {
+    color: var(--second-color);
+  }
+}
+
+.footer-contact-link-city-address {
+  color: var(--hero-and-city-word-color);
+}

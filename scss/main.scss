@@ -16,6 +16,7 @@
 @import "./components/nav-contacts";
 
 // main
+
 // hero
 
 @import "./components/hero";
@@ -51,3 +52,17 @@
 // footer
 
 @import "./components/footer";
+@import "./components/footer-contact-link";
+@import "./components/footer-adress-list-item";
+@import "./components/footer-container-social";
+@import "./components/footer-list-icon";
+@import "./components/footer-container-forms";
+@import "./components/footer-form-in-footer";
+
+// modal
+
+@import "./components/modal-backdrop";
+@import "./components/modal-window";
+@import "./components/modal-form";
+@import "./components/modal-policy";
+@import "./components/modal-send-button";
