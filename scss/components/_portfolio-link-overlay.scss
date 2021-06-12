@@ -1,0 +1,35 @@
+.portfolio-filter-box-list-item-link {
+  &:hover .portfolio-owerlay,
+  &:focus .portfolio-owerlay {
+    transform: translateY(0%);
+  }
+
+  .portfolio-filter-box-list-item-wrap-container {
+    position: relative;
+    overflow: hidden;
+
+    .portfolio-owerlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      color: var(--hero-and-city-word-color);
+      padding: 64px 24px;
+      background-color: rgba(33, 150, 243, 0.9);
+      font-size: 18px;
+      line-height: 1.55;
+      letter-spacing: 0.03em;
+      overflow: auto;
+      transform: translateY(100%);
+      transition-property: transform;
+      transition-duration: var(--anim-transition-duration);
+      transition-timing-function: var(--anim-transition-timing-function);
+    }
+  }
+
+  &:hover .portfolio-owerlay,
+  &:focus .portfolio-owerlay {
+    transform: translateY(0%);
+  }
+}

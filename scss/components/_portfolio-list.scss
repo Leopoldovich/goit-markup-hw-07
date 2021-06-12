@@ -1,0 +1,22 @@
+.portfolio-filter-box-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: calc(-1 * 30px);
+  margin-bottom: calc(-1 * 30px);
+  margin-top: calc(-1 * 30px);
+
+  .portfolio-filter-box-list-item {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-right: 30px;
+    margin-top: 30px;
+    transition-property: box-shadow;
+    transition-duration: var(--anim-transition-duration);
+    transition-timing-function: var(--anim-transition-timing-function);
+
+    &:hover,
+    &:focus {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+  }
+}
