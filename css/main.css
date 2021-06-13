@@ -238,7 +238,7 @@ header {
   margin: 0 auto;
 }
 
-.hero-section .hero-container .hero-text {
+.hero-section .hero-container .hero-container--text {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -248,7 +248,7 @@ header {
   padding-bottom: 30px;
 }
 
-.hero-section .hero-container .hero-button {
+.hero-section .hero-container .hero-container--button {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -269,7 +269,7 @@ header {
   transition-timing-function: var(--anim-transition-timing-function);
 }
 
-.hero-section .hero-container .hero-button:hover, .hero-section .hero-container .hero-button:focus {
+.hero-section .hero-container .hero-container--button:hover, .hero-section .hero-container .hero-container--button:focus {
   background-color: var(--hero-and-modal-buttons-h-f-color);
 }
 
